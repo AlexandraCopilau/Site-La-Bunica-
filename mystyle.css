@@ -1,0 +1,409 @@
+p.heading
+{
+text-align: center;
+color: #391313;
+font-family:courier;
+background-image: back.jpg;
+margin-top:60px;
+margin-bottom: 5px;
+margin-right: 150px;
+margin-left: 150px;
+padding: 2px;
+}
+p.portofoliu
+{
+text-align: center;
+color: #dae0ea;
+font-family:courier;
+
+margin-top:60px;
+margin-bottom: 5px;
+margin-right: 150px;
+margin-left: 150px;
+padding: 2px;
+}
+p.large
+{
+font-size: 450%;
+}
+
+p.medium
+{
+font-size: 250%;
+}
+p.small
+{
+text-align: center;
+color: #391313;
+font-family:courier;
+margin-right: 70px;
+margin-left: 70px;
+}
+p.subtitle
+{
+text-align: center;
+color: #391313;
+font-family:courier;
+background-image: back.jpg;
+margin-top:5px;
+margin-bottom: 50px;
+margin-right: 150px;
+margin-left: 150px;
+padding: 2px;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook
+ {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+ }
+.contact-title
+{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+
+}
+.contact-title h1
+{
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2
+{
+  font-size: 16px;
+}
+
+body
+{
+font-family: courier;
+font-size: 70%;
+background-attachement: fixed;
+overflow: scroll;
+}
+
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+nav {
+	position: absolute;
+	width: 100%;
+	height: 75px;
+	background:#244c44;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color:#fcfcfc;
+	text-transform: uppercase;
+}
+
+section {
+	height: 35vh;
+}
+
+
+
+#screen1 {
+	background: #244c44;
+}
+
+#screen1 p {
+	padding: 10px;
+}
+
+#screen2 {
+	background: #efc94d;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#screen3 {
+	background: #4d1919;	
+	margin-bottom: 20px;
+	margin-bottom: 30px;
+
+}
+
+
+#screen4 {
+	background: #ad7a5d;
+	margin-bottom: 30px;
+
+}
+
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+.contact-title
+{
+  margin-top: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+
+}
+.contact-title h1
+{
+  font-size: 24px;
+  line-height: 5px;
+}
+.contact-title h2
+{
+  font-size: 12px;
+}
+
+form
+{
+  margin-top: 30px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline:none;
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+
+form.submit
+{
+  background: #212d3f;
+  border-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 20px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+form.submit:hover
+{
+background-color: #2b3544;
+cursor: pointer;
+}
+
+
+* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/*LOGIN*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+	
+	
+}
+
+.error{
+color:red;
+}
+
+
+.success
+{
+color: #ff9966;
+text-align: center;
+font-weight: bold;
+font-size: 14px;
+}
+
+
